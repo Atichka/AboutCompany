@@ -1,0 +1,6 @@
+@import url(./pages/page.css);
+@import url(./vendor/fonts.css);
+
+h1 {
+  color: red;
+}
