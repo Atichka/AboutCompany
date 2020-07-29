@@ -1,0 +1,17 @@
+.search__button {
+  background: url(../../../images/search.png) no-repeat 50% 50%;
+  background-color: #005FAE;
+  border-radius: 3px;
+  width: 64px;
+  height: 100%;
+  position: absolute;
+}
+
+.search__button:hover {
+	transition: opacity 0.3s;
+  opacity: 0.8;
+}
+
+.search__button:focus {
+  opacity: 1;
+}

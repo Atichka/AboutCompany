@@ -12,10 +12,27 @@
 
 <body class="body">
   <div class="page">
+
     <section class="main">
       <header class="header"></header>
       <div class="subneader"></div>
     </section>
+
+    <section class="search">
+      <div class="search__menu">
+        <a href="./index.html" class="menu text__color_grey">Главная / </a>
+        <a href="./index.html" class="menu text__color_grey">Мясные компании в Москве / </a>
+        <a href="./index.html" class="menu text__color_black">Преображенский МПК, ООО</a>
+      </div>
+      <form class="search__search-field" name="search">
+        <input class="search__input" type="text" placeholder="Поиск по компаниям" minlength='2' maxlength="20"
+          required />
+        <span id="inputError" class="search__error"></span>
+        <button class="search__button"></button>
+      </form>
+      <a href="./index.html" class="menu text__color_blue">&#8592; К каталогу компаний</a>
+    </section>
+
   </div>
   <script src="<%= htmlWebpackPlugin.files.js %>"></script>
 </body>

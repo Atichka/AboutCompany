@@ -3,7 +3,6 @@
 @import url(./block/header/header.css);
 @import url(./block/body/body.css);
 @import url(./block/subneader/subneader.css);
-
-h1 {
-  color: red;
-}
+@import url(./block/text/text.css);
+@import url(./block/search/search.css);
+@import url(./block/menu/menu.css);
