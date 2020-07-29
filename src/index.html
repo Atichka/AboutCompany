@@ -9,8 +9,14 @@
   <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.css %>">
   <link rel="icon" href="<%=require('./images/favicon.ico')%>" type="image/x-icon">
 </head>
-<body>
-  <h1>Hello</h1>
+
+<body class="body">
+  <div class="page">
+    <section class="main">
+      <header class="header"></header>
+      <div class="subneader"></div>
+    </section>
+  </div>
   <script src="<%= htmlWebpackPlugin.files.js %>"></script>
 </body>
 </html>

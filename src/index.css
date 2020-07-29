@@ -1,5 +1,8 @@
 @import url(./pages/page.css);
 @import url(./vendor/fonts.css);
+@import url(./block/header/header.css);
+@import url(./block/body/body.css);
+@import url(./block/subneader/subneader.css);
 
 h1 {
   color: red;
