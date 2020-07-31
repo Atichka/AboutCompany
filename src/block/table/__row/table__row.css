@@ -1,0 +1,9 @@
+.table__row {
+  padding: 16px;
+  display: grid;
+  grid-template-columns: 70px 286px 60px 44px auto;
+  gap: 16px;
+
+  border-radius: 3px;
+  border-top: 1px solid #E0E0E0;
+}

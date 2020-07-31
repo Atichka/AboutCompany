@@ -1,0 +1,9 @@
+@import url(./__item/advertising__item.css);
+
+.advertising {
+  margin: 32px 33px;
+
+  display: grid;
+  grid-template-rows: 320px 320px;
+  gap: 20px;
+}

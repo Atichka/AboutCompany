@@ -1,0 +1,15 @@
+.look__button {
+  width: 238px;
+  height: 40px;
+
+  border: 1px solid #00C346;
+  box-sizing: border-box;
+  border-radius: 3px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  margin-right: 0;
+  margin-left: auto;
+  background: white;
+}

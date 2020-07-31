@@ -1,0 +1,9 @@
+@import url(./__pic/look__pic.css);
+@import url(./__container/look__container.css);
+@import url(./__button/look__button.css);
+@import url(./__comment-container/look__comment-container.css);
+@import url(./__comment/look__comment.css);
+
+.look {
+  display: flex;
+}

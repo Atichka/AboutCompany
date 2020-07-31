@@ -1,0 +1,4 @@
+.table__text {
+  display: grid;
+  grid-template-rows: auto auto;
+}

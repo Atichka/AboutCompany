@@ -1,0 +1,6 @@
+.about-company__grid {
+  margin-top: 42px;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 20px;
+}

@@ -1,0 +1,5 @@
+.container-horizon {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 20px;
+}

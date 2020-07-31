@@ -1,0 +1,9 @@
+.table__row-main {
+  margin-top: 16px;
+  padding: 8px;
+  display: grid;
+  grid-template-columns: 70px 286px 60px 44px auto;
+  gap: 16px;
+
+  border-radius: 3px;
+}

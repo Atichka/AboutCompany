@@ -1,0 +1,9 @@
+@import url(./__container/about-company__container.css);
+@import url(./__grid/about-company__grid.css);
+@import url(./__paragraphs/about-company__paragraphs.css);
+@import url(./__text/about-company__text.css);
+
+.about-company {
+  margin-top: 16px;
+  margin-left: 33px;
+}
