@@ -6,3 +6,11 @@
 
   color: #999;
 }
+
+.look__comment:active {
+  text-decoration: underline;
+}
+
+.look__comment:hover {
+  text-decoration: underline;
+}

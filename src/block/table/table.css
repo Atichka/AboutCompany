@@ -3,8 +3,9 @@
 @import url(./__status/table__status.css);
 @import url(./__paragraph/table__paragraph.css);
 @import url(./__container/table__container.css);
-@import url(./__text/table__text.css);
+@import url(./__container-text/table__container-text.css);
 @import url(./__photo/table__photo.css);
 @import url(./__row-main/table__row-main.css);
+@import url(./__text/table__text.css);
 
 

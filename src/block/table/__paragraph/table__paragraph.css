@@ -1,4 +1,5 @@
 .table__paragraph {
+  text-decoration: none;
   margin-top: auto;
   margin-bottom: auto;
   font-family: 'Roboto';
@@ -6,4 +7,12 @@
   font-weight: normal;
   font-size: 12px;
   line-height: 16px;
+}
+
+.table__paragraph:active {
+  text-decoration: underline;
+}
+
+.table__paragraph:hover {
+  text-decoration: underline;
 }

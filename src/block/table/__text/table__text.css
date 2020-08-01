@@ -1,4 +1,6 @@
 .table__text {
-  display: grid;
-  grid-template-rows: auto auto;
+  font-size: 12px;
+  line-height: 16px;
+  margin-top: auto;
+  margin-bottom: auto;
 }

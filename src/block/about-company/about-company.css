@@ -2,6 +2,7 @@
 @import url(./__grid/about-company__grid.css);
 @import url(./__paragraphs/about-company__paragraphs.css);
 @import url(./__text/about-company__text.css);
+@import url(./__logo/about-company__logo.css);
 
 .about-company {
   margin-top: 16px;

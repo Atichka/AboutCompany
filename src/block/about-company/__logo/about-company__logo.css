@@ -1,0 +1,11 @@
+.about-company__logo {
+  max-width: 180px;
+  height: auto;
+  margin-bottom: 8px;
+}
+
+@media screen and (max-width: 1440px) {
+  .about-company__logo {
+    max-width: 120px;
+  }
+}

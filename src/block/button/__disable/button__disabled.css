@@ -1,0 +1,9 @@
+.button__disabled {
+  background-color: #00C346;
+  color: white;
+}
+
+.button__disabled:disabled {
+  cursor: not-allowed;
+  pointer-events: none;
+}

@@ -50,7 +50,16 @@
                 <img class="look__pic" src="<%=require('./images/comment.png')%>" alt="Коментарий">
                 <a href="#" class="look__comment">Оставить отзыв</a>
               </div>
-              <button class="look__button text__color_green">Работаете в этой компании?</button>
+              <div class="look__comment-container hide">
+                <img class="look__pic" src="<%=require('./images/statistic.png')%>" alt="Статистика">
+                <a href="#" class="look__comment">Статистика</a>
+              </div>
+              <div class="look__comment-container hide">
+                <img class="look__pic" src="<%=require('./images/edit.png')%>" alt="Редактировать">
+                <a href="#" class="look__comment">Редактировать</a>
+              </div>
+              <button class="look__button button__work text__color_green">Работаете в этой компании?</button>
+              <button class="look__button button__close text__color_green hide">Отменить запрос в сотрудники</button>
             </div>
             <div class="about-company__grid">
               <div class="about-company__container">
@@ -59,99 +68,99 @@
                   <div class="table">
                     <div class="table__row-main background__grey">
                       <h3 class="table__paragraph"></h3>
-                      <h3 class="table__paragraph text__color_dark">Объявление</h3>
-                      <h3 class="table__paragraph text__color_dark text__align_right">Время</h3>
+                      <h3 class="table__text text__color_dark">Объявление</h3>
+                      <h3 class="table__text text__color_dark text__align_right">Время</h3>
                       <img class="table__pic" src="<%=require('./images/look-black.png')%>" alt="Просмотры">
                       <h3 class="table__paragraph text__color_dark">Опубликовал</h3>
                     </div>
                     <div class="table__row">
                       <p class="table__status text__color_white background__blue">Продам</p>
-                      <p class="table__paragraph text__color_blue">Желудки куриные очищенные 60 руб.</p>
-                      <p class="text__color_dark text__align_right">5 фев</p>
-                      <p class="text__color_dark text__align_right">155</p>
+                      <a href="#" class="table__paragraph text__color_blue">Желудки куриные очищенные 60 руб.</a>
+                      <p class="table__text text__color_dark text__align_right">5 фев</p>
+                      <p class="table__text text__color_dark text__align_right">155</p>
                       <div class="table__container">
                         <img class="table__photo" src="<%=require('./images/photo.png')%>" alt="Фотография">
-                        <div class="table__text">
+                        <div class="table__container-text">
                           <p class="table__paragraph text__color_blue">Татьяна Лобач</p>
-                          <p class="table__paragraph text__color_grey">Орехово-Зуевский мясокомб...</p>
+                          <p class="table__text text__color_grey">Орехово-Зуевский мясокомб...</p>
                         </div>
                       </div>
                     </div>
                     <div class="table__row">
                       <p class="table__status text__color_white background__blue">Продам</p>
-                      <p class="table__paragraph text__color_blue">Голень ЦБ(подл) 100р, Желудки кур.очиш 60 руб.</p>
-                      <p class="text__color_dark text__align_right">27 янв</p>
-                      <p class="text__color_dark text__align_right">185</p>
+                      <a href="#" class="table__paragraph text__color_blue">Голень ЦБ(подл) 100р, Желудки кур.очиш 60 руб.</a>
+                      <p class="table__text text__color_dark text__align_right">27 янв</p>
+                      <p class="table__text text__color_dark text__align_right">185</p>
                       <div class="table__container">
                         <img class="table__photo" src="<%=require('./images/photo.png')%>" alt="Фотография">
-                        <div class="table__text">
+                        <div class="table__container-text">
                           <p class="table__paragraph text__color_blue">Татьяна Лобач</p>
-                          <p class="table__paragraph text__color_grey">Орехово-Зуевский мясокомб...</p>
+                          <p class="table__text text__color_grey">Орехово-Зуевский мясокомб...</p>
                         </div>
                       </div>
                     </div>
                     <div class="table__row">
                       <p class="table__status text__color_white background__red">Куплю</p>
-                      <p class="table__paragraph text__color_blue">Курица, Индейка, Говядина, Свинина от МК</p>
-                      <p class="text__color_dark text__align_right">21 апр</p>
-                      <p class="text__color_dark text__align_right">42609</p>
+                      <a href="#" class="table__paragraph text__color_blue">Курица, Индейка, Говядина, Свинина от МК</a>
+                      <p class="table__text text__color_dark text__align_right">21 апр</p>
+                      <p class="table__text text__color_dark text__align_right">42609</p>
                       <div class="table__container">
                         <img class="table__photo" src="<%=require('./images/photo.png')%>" alt="Фотография">
-                        <div class="table__text">
+                        <div class="table__container-text">
                           <p class="table__paragraph text__color_blue">Татьяна Лобач</p>
-                          <p class="table__paragraph text__color_grey">Орехово-Зуевский мясокомб...</p>
+                          <p class="table__text text__color_grey">Орехово-Зуевский мясокомб...</p>
                         </div>
                       </div>
                     </div>
                     <div class="table__row">
                       <p class="table__status text__color_white background__red">Куплю</p>
-                      <p class="table__paragraph text__color_blue">ГоленьЦБ(подл) 100р, Желудки кур.очиш 60 руб.</p>
-                      <p class="text__color_dark text__align_right">27 фев</p>
-                      <p class="text__color_dark text__align_right">319</p>
+                      <a href="#" class="table__paragraph text__color_blue">ГоленьЦБ(подл) 100р, Желудки кур.очиш 60 руб.</a>
+                      <p class="table__text text__color_dark text__align_right">27 фев</p>
+                      <p class="table__text text__color_dark text__align_right">319</p>
                       <div class="table__container">
                         <img class="table__photo" src="<%=require('./images/photo.png')%>" alt="Фотография">
-                        <div class="table__text">
+                        <div class="table__container-text">
                           <p class="table__paragraph text__color_blue">Татьяна Лобач</p>
-                          <p class="table__paragraph text__color_grey">Орехово-Зуевский мясокомб...</p>
+                          <p class="table__text text__color_grey">Орехово-Зуевский мясокомб...</p>
                         </div>
                       </div>
                     </div>
                     <div class="table__row">
                       <p class="table__status text__color_white background__blue">Продам</p>
-                      <p class="table__paragraph text__color_blue">Курица, Индейка, Говядина, Свинина от МК</p>
-                      <p class="text__color_dark text__align_right">7 фев</p>
-                      <p class="text__color_dark text__align_right">10072</p>
+                      <a href="#" class="table__paragraph text__color_blue">Курица, Индейка, Говядина, Свинина от МК</a>
+                      <p class="table__text text__color_dark text__align_right">7 фев</p>
+                      <p class="table__text text__color_dark text__align_right">10072</p>
                       <div class="table__container">
                         <img class="table__photo" src="<%=require('./images/photo.png')%>" alt="Фотография">
-                        <div class="table__text">
+                        <div class="table__container-text">
                           <p class="table__paragraph text__color_blue">Татьяна Лобач</p>
-                          <p class="table__paragraph text__color_grey">Орехово-Зуевский мясокомб...</p>
+                          <p class="table__text text__color_grey">Орехово-Зуевский мясокомб...</p>
                         </div>
                       </div>
                     </div>
                     <div class="table__row">
                       <p class="table__status text__color_white background__blue">Продам</p>
-                      <p class="table__paragraph text__color_blue">Фарш куриный ММО люкс 40руб/кг</p>
-                      <p class="text__color_dark text__align_right">7 фев</p>
-                      <p class="text__color_dark text__align_right">300</p>
+                      <a href="#" class="table__paragraph text__color_blue">Фарш куриный ММО люкс 40руб/кг</a>
+                      <p class="table__text text__color_dark text__align_right">7 фев</p>
+                      <p class="table__text text__color_dark text__align_right">300</p>
                       <div class="table__container">
                         <img class="table__photo" src="<%=require('./images/photo-vit.png')%>" alt="Фотография">
-                        <div class="table__text">
+                        <div class="table__container-text">
                           <p class="table__paragraph text__color_blue">Виталий Пчелинцев</p>
-                          <p class="table__paragraph text__color_grey text__align">ООО ОКЕАНФИШ</p>
+                          <p class="table__text text__color_grey text__align">ООО ОКЕАНФИШ</p>
                         </div>
                       </div>
                     </div>
                     <div class="table__row">
                       <p class="table__status text__color_white background__blue">Продам</p>
-                      <p class="table__paragraph text__color_blue">Голень ЦБ ГОСТ 75 руб/кг</p>
-                      <p class="text__color_dark text__align_right">7 фев</p>
-                      <p class="text__color_dark text__align_right">319</p>
+                      <a href="#" class="table__paragraph text__color_blue">Голень ЦБ ГОСТ 75 руб/кг</a>
+                      <p class="table__text text__color_dark text__align_right">7 фев</p>
+                      <p class="table__text text__color_dark text__align_right">319</p>
                       <div class="table__container">
                         <img class="table__photo" src="<%=require('./images/photo-vit.png')%>" alt="Фотография">
-                        <div class="table__text">
+                        <div class="table__container-text">
                           <p class="table__paragraph text__color_blue">Виталий Пчелинцев</p>
-                          <p class="table__paragraph text__color_grey text__align">ООО ОКЕАНФИШ</p>
+                          <p class="table__text text__color_grey text__align">ООО ОКЕАНФИШ</p>
                         </div>
                       </div>
                     </div>
@@ -168,36 +177,37 @@
                     <img class="photos__item" src="<%=require('./images/photo2.png')%>" alt="Фотография">
                     <img class="photos__item" src="<%=require('./images/photo3.png')%>" alt="Фотография">
                     <img class="photos__item" src="<%=require('./images/photo4.png')%>" alt="Фотография">
+
                   </div>
                 </div>
               </div>
               <div class="about-company__company">
                 <img class="about-company__logo" src="<%=require('./images/logo.png')%>" alt="Фотография">
                 <div class="about-company__paragraphs background__grey">
-                  <p class="about-company__text text__color_dark"><font color="black">Название компании:</font> ООО “Преображенский Мясоперерабатывающий Комбинат”</p>
-                  <p class="about-company__text text__color_dark"><font color="black">ОГРН (ОГРНИП):</font> 1166733069612</p>
-                  <p class="about-company__text text__color_dark"><font color="black">ИНН:</font> 6726022894</p>
-                  <p class="about-company__text text__color_dark"><font color="black">Страна:</font> Россия</p>
-                  <p class="about-company__text text__color_dark"><font color="black">Регион:</font> Тверская область</p>
-                  <p class="about-company__text text__color_dark"><font color="black">Описание:</font> Преображенский
+                  <p class="about-company__text text__color_dark"><font color="black">Название компании:</font> ООО “Преображенский Мясоперерабатывающий Комбинат”<br>
+                  <font color="black">ОГРН (ОГРНИП):</font> 1166733069612<br>
+                  <font color="black">ИНН:</font> 6726022894<br>
+                  <font color="black">Страна:</font> Россия<br>
+                  <font color="black">Регион:</font> Тверская область<br>
+                  <font color="black">Описание:</font> Преображенский
                     МПК - современное мясоперерабатывающее предприятие в Тверской области. Введен в эксплуатацию в 2013 г.
                     Основу ассортимента составляют порционные и мелкокусковые полуфабрикаты из охлажденной свинины.
                     Продукция мясокомбината является частью вертикально-интегрированного холдинга КоПИТАНИЯФ.
                     Предприятия холдинга образуют полный цикл производства от выращивания зерна и производства
                     комбикормов до производства свежего мяса, что позволяет снизить себестоимость и гарантировать
-                    безопасность и высокое качество продукции.</p>
-                  <p class="about-company__text text__color_dark"><font color="black">Виды деятельности:</font>
+                    безопасность и высокое качество продукции.<br>
+                  <font color="black">Виды деятельности:</font>
                     <br>– Оборудование, упаковка
                     <br>– Оптовая торговля
                     <br>– Производитель готовой продукции
                     <br>– Производитель мясного сырья
                     <br>– Розничная торговля
-                  <p class="about-company__text text__color_dark"><font color="black">Виды продукции:</font>
+                  <font color="black">Виды продукции:</font>
                     <br>– Свинина
                     <br>– Замороженное и охлажденное мясо
                     <br>– Мясные полуфабрикаты
-                    <br>– Колбасы, сосиски, деликатесы</p>
-                    <p class="about-company__text text__color_dark"><font color="black">Товары и услуги:</font> Мясо замороженное,
+                    <br>– Колбасы, сосиски, деликатесы<br>
+                    <font color="black">Товары и услуги:</font> Мясо замороженное,
                       мясо охлажденное, свинина, субпродукты</p>
                 </div>
               </div>
@@ -209,7 +219,6 @@
         <div class="advertising__item">Реклама</div>
       </div>
     </div>
-
   </div>
   <script src="<%= htmlWebpackPlugin.files.js %>"></script>
 </body>

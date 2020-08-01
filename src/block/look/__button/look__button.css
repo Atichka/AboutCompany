@@ -15,3 +15,13 @@
   margin-left: auto;
   background: white;
 }
+
+.look__button:hover {
+  background: #00C346;
+  color: #FFF;
+}
+
+.look__button:active {
+  background: #00C346;
+  color: #FFF;
+}
