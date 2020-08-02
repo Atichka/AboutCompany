@@ -1,0 +1,25 @@
+.comment__button {
+  width: 142px;
+  background: #005FAE;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+
+  text-align: center;
+
+  color: #FFFFFF;
+  margin-right: 0;
+}
+
+.comment__button:hover {
+  background: rgb(28, 114, 185);
+  border-radius: 3px;
+}
+
+.comment__button:active {
+  background: rgb(69, 136, 190);
+  border-radius: 3px;
+}

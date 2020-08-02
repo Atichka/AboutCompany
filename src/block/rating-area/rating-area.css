@@ -1,0 +1,9 @@
+@import url(./__container/rating-area__container.css);
+
+.rating-area {
+  display: grid;
+  grid-template-columns: 80px auto;
+  gap: 8px;
+  text-align: left;
+}
+

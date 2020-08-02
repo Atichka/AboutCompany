@@ -1,0 +1,15 @@
+@import url(./__text/comment__text.css);
+@import url(./__container/comment__container.css);
+@import url(./__container-text/comment__container-text.css);
+@import url(./__input/comment__input.css);
+@import url(./__container-send/comment__container-send.css);
+@import url(./__button/comment__button.css);
+@import url(./__btn-add/comment__btn-add.css);
+@import url(./__error/comment__error.css);
+
+.comment {
+  width: 740px;
+  height: 276px;
+  margin-top: 32px;
+  display: none;
+}

@@ -1,0 +1,39 @@
+.rating-area__container {
+  overflow: hidden;
+	margin: auto auto auto 0;
+}
+.rating-area__container:not(:checked) > input {
+	display: none;
+}
+.rating-area__container:not(:checked) > label {
+	float: right;
+	width: 12px;
+	padding: 2px;
+	cursor: pointer;
+	font-size: 10px;
+	line-height: 10px;
+	color: lightgrey;
+	text-shadow: 1px 1px #bbb;
+}
+.rating-area__container:not(:checked) > label:before {
+	content: '★';
+}
+.rating-area__container > input:checked ~ label {
+	color: gold;
+	text-shadow: 1px 1px #c60;
+}
+.rating-area__container:not(:checked) > label:hover,
+.rating-area__container:not(:checked) > label:hover ~ label {
+	color: gold;
+}
+.rating-area__container > input:checked + label:hover,
+.rating-area__container > input:checked + label:hover ~ label,
+.rating-area__container > input:checked ~ label:hover,
+.rating-area__container > input:checked ~ label:hover ~ label,
+.rating-area__container > label:hover ~ input:checked ~ label {
+	color: gold;
+	text-shadow: 1px 1px goldenrod;
+}
+.rate-area > label:active {
+	position: relative;
+}

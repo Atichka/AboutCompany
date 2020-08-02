@@ -1,7 +1,6 @@
 .table__paragraph {
   text-decoration: none;
-  margin-top: auto;
-  margin-bottom: auto;
+  margin: auto auto auto 0;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: normal;

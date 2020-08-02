@@ -61,6 +61,40 @@
               <button class="look__button button__work text__color_green">Работаете в этой компании?</button>
               <button class="look__button button__close text__color_green hide">Отменить запрос в сотрудники</button>
             </div>
+            <div class="comment text__align_right">
+              <a href="#" class="comment__text text__color_blue">Правила публикации отзывов</a>
+              <div class="comment__container background__grey">
+                <div class="table__container">
+                  <img class="table__photo" src="<%=require('./images/photo.png')%>" alt="Фотография">
+                  <div class="table__container-text">
+                    <p class="table__text text__color_grey">Гость</p>
+                    <div class="rating-area">
+                      <div class="rating-area__container">
+                        <input type="radio" id="star-5" name="rating" value="5">
+                        <label for="star-5" title="Оценка «5»"></label>
+                        <input type="radio" id="star-4" name="rating" value="4">
+                        <label for="star-4" title="Оценка «4»"></label>
+                        <input type="radio" id="star-3" name="rating" value="3">
+                        <label for="star-3" title="Оценка «3»"></label>
+                        <input type="radio" id="star-2" name="rating" value="2">
+                        <label for="star-2" title="Оценка «2»"></label>
+                        <input type="radio" id="star-1" name="rating" value="1">
+                        <label for="star-1" title="Оценка «1»"></label>
+                      </div>
+                      <p class="table__text text__color_grey">Начните отзыв с выставления оценки</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="comment__container-text">
+                  <textarea class="comment__input table__text text__color_grey"></textarea>
+                  <div class="comment__container-send">
+                    <button class="comment__btn-add"><img src="<%=require('./images/phot.png')%>" alt="Добавить"></button>
+                    <button class="comment__button">Отправить</button>
+                  </div>
+                  <span id="inputError" class="comment__error"></span>
+                </div>
+              </div>
+            </div>
             <div class="about-company__grid">
               <div class="about-company__container">
                 <div class="about-company__table">
