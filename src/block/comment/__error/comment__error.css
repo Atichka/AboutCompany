@@ -1,5 +1,13 @@
 .comment__error {
   margin: 0;
   display: none;
-  color: red;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.75rem;
+  line-height: 1rem;
+
+  text-align: right;
+
+  color: #AF2F1D;
 }

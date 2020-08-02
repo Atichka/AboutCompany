@@ -10,8 +10,8 @@
 	width: 12px;
 	padding: 2px;
 	cursor: pointer;
-	font-size: 10px;
-	line-height: 10px;
+	font-size: 0.625rem;
+	line-height: 0.625rem;
 	color: lightgrey;
 	text-shadow: 1px 1px #bbb;
 }

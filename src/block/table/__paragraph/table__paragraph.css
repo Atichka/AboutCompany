@@ -4,8 +4,8 @@
   font-family: 'Roboto';
   font-style: normal;
   font-weight: normal;
-  font-size: 12px;
-  line-height: 16px;
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 .table__paragraph:active {
