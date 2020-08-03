@@ -1,3 +1,9 @@
 .company__pic {
   margin: auto;
 }
+
+@media screen and (max-width: 1024px) {
+  .company__pic {
+    width: 15px;
+  }
+}

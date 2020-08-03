@@ -2,3 +2,9 @@
   width: 14px;
   margin: auto 0 auto auto;
 }
+
+@media screen and (max-width: 1024px) {
+  .table__pic {
+    width: 10px;
+  }
+}

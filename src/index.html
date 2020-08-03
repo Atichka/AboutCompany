@@ -65,9 +65,9 @@
               <a href="#" class="comment__text text__color_blue">Правила публикации отзывов</a>
               <div class="comment__container background__grey">
                 <div class="table__container">
-                  <img class="table__photo" src="<%=require('./images/photo.png')%>" alt="Фотография">
+                  <img class="comment__photo" src="<%=require('./images/photo.png')%>" alt="Фотография">
                   <div class="table__container-text">
-                    <p class="table__text text__color_grey">Гость</p>
+                    <p class="table__user text__color_grey">Гость</p>
                     <div class="rating-area">
                       <div class="rating-area__container">
                         <input type="radio" id="star-5" name="rating" value="5">
@@ -81,18 +81,16 @@
                         <input type="radio" id="star-1" name="rating" value="1">
                         <label for="star-1" title="Оценка «1»"></label>
                       </div>
-                      <p class="table__text text__color_grey">Начните отзыв с выставления оценки</p>
+                      <p class="comment__comment text__color_grey">Начните отзыв с выставления оценки</p>
                     </div>
                   </div>
                 </div>
-                <div class="comment__container-text">
-                  <textarea class="comment__input table__text text__color_grey"></textarea>
-                  <div class="comment__container-send">
-                    <button class="comment__btn-add"><img src="<%=require('./images/phot.png')%>" alt="Добавить"></button>
-                    <button class="comment__button">Отправить</button>
-                  </div>
-                  <span id="inputError" class="comment__error"></span>
+                <textarea class="comment__input table__text text__color_grey"></textarea>
+                <div class="comment__container-send">
+                  <button class="comment__btn-add"><img src="<%=require('./images/phot.png')%>" alt="Добавить"></button>
+                  <button class="comment__button">Отправить</button>
                 </div>
+                <span id="inputError" class="comment__error"></span>
               </div>
             </div>
             <div class="about-company__grid">

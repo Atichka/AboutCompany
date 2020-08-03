@@ -1,3 +1,9 @@
 .look__pic {
   margin: auto 5px auto auto;
 }
+
+@media screen and (max-width: 1024px) {
+  .look__pic {
+    width: 15px;
+  }
+}

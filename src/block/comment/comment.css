@@ -6,10 +6,17 @@
 @import url(./__button/comment__button.css);
 @import url(./__btn-add/comment__btn-add.css);
 @import url(./__error/comment__error.css);
+@import url(./__comment/comment__comment.css);
+@import url(./__photo/comment__photo.css);
 
 .comment {
-  width: 740px;
-  height: 276px;
+  max-width: 740px;
   margin-top: 32px;
   display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .comment {
+    text-align: left;
+  }
 }

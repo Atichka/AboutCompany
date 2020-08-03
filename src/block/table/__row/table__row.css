@@ -7,3 +7,32 @@
   border-radius: 3px;
   border-top: 1px solid #E0E0E0;
 }
+
+@media screen and (max-width: 1250px) {
+  .table__row {
+    padding: 12px;
+    grid-template-columns: 55px 186px 50px 34px auto;
+    gap: 12px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .table__row {
+    padding: 9px;
+    grid-template-columns: 35px 116px 30px 24px auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .table__row {
+    grid-template-columns: 55px 126px 50px 34px auto;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .table__row {
+    grid-template-columns: 35px 66px 15px 24px auto;
+    gap: 4px;
+    padding: 5px;
+  }
+}

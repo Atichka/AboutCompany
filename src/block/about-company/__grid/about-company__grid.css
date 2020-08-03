@@ -4,3 +4,9 @@
   grid-template-columns: auto auto;
   gap: 20px;
 }
+
+@media screen and (max-width: 768px) {
+  .about-company__grid {
+    display: block;
+  }
+}

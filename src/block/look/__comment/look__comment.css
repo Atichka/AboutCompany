@@ -14,3 +14,10 @@
 .look__comment:hover {
   text-decoration: underline;
 }
+
+@media screen and (max-width: 1024px) {
+  .look__comment {
+    font-size: .75rem;
+    line-height: 1rem;
+  }
+}

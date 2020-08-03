@@ -4,3 +4,10 @@
   gap: 8px;
   text-align: left;
 }
+
+@media screen and (max-width: 520px) {
+  .table__container {
+    gap: 5px;
+  }
+}
+

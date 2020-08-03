@@ -7,3 +7,16 @@
   grid-template-rows: 320px 320px;
   gap: 20px;
 }
+
+@media screen and (max-width: 1024px) {
+  .advertising {
+    gap: 9px;
+    margin: 32px 13px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .advertising {
+    display: none;
+  }
+}

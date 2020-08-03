@@ -1,3 +1,9 @@
 .about-company__paragraphs{
   padding: 16px;
 }
+
+@media screen and (max-width: 1024px) {
+  .about-company__paragraphs {
+    padding: 10px;
+  }
+}

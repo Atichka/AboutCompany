@@ -25,3 +25,22 @@
   background: #00C346;
   color: #FFF;
 }
+
+@media screen and (max-width: 1024px) {
+  .look__button {
+    font-size: .75rem;
+    line-height: 1rem;
+    width: 200px;
+    height: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .look__button {
+    font-size: .5rem;
+    line-height: .75rem;
+    width: 100px;
+    height: 30px;
+  }
+}
+

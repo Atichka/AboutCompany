@@ -37,19 +37,19 @@
   text-rendering: optimizeLegibility;
 }
 
-@media screen and (max-width: 1440px) {
+/* @media screen and (max-width: 1440px) {
   .page {
-    min-width: 1440px;
+    max-width: 1440px;
   }
-}
+} */
 
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
   .page {
     min-width: 1024px;
   }
-}
+} */
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .page {
     min-width: 768px;
   }
@@ -65,4 +65,4 @@
   .page {
     min-width: 320px;
   }
-}
+} */

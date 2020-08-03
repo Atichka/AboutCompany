@@ -5,6 +5,8 @@
   width: 64px;
   height: 100%;
   position: absolute;
+  right: 0;
+  left: auto;
 }
 
 .search__button:hover {
@@ -14,4 +16,10 @@
 
 .search__button:focus {
   opacity: 1;
+}
+
+@media screen and (max-width: 1024px) {
+  .search__button {
+    width: 34px;
+  }
 }

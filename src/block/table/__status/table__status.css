@@ -1,9 +1,15 @@
 .table__status {
   padding: 4px;
-  width: 60px;
   text-align: center;
 
   font-size: 0.75rem;
   line-height: 1rem;
-  margin: auto;
+  margin: auto 0 auto 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .table__status {
+    font-size: 0.5rem;
+    line-height: 0.75rem;
+  }
 }
